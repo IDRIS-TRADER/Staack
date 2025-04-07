@@ -69,7 +69,6 @@ body {
     max-width: calc(1200px + 10px * 2);
     padding-left: 10px;
     padding-right: 10px;
-    width: 100%;
 }
 
 .container-mobile {
@@ -78,7 +77,6 @@ body {
     max-width: calc(1200px + 10px * 2);
     padding-left: 10px;
     padding-right: 10px;
-    width: 100%;
 }
 
 html {
@@ -144,7 +142,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .header__burger-button--element3 {
     content: "";
     width: 25px;
-    height: 1.5px;
+    height: 2.5px;
     background-color: var(--color-white);
     display: block;
     position: relative;
@@ -185,6 +183,7 @@ input[type="number"]::-webkit-outer-spin-button {
     font-size: 20px;
     white-space: nowrap;
     position: relative;
+    max-width: 260px;
     z-index: 20;
 }
 
@@ -203,6 +202,7 @@ input[type="number"]::-webkit-outer-spin-button {
     white-space: nowrap;
     position: relative;
     z-index: 20;
+    max-width: 260px;
 }
 
 .container__mobile__content-first--img {
@@ -228,6 +228,7 @@ input[type="number"]::-webkit-outer-spin-button {
     left: 50px;
     line-height: 150%;
     color: var(--color-text);
+    max-width: 260px;
 }
 
 .container__mobile__content-second--text::before {
@@ -259,6 +260,7 @@ input[type="number"]::-webkit-outer-spin-button {
     position: relative;
     left: 50px;
     color: var(--color-text);
+    max-width: 260px;
 }
 
 .container__mobile__content-third--text::before {
@@ -302,6 +304,7 @@ input[type="number"]::-webkit-outer-spin-button {
     position: relative;
     left: 50px;
     color: var(--color-text);
+    max-width: 260px;
 }
 
 .container__mobile__content-fourth--text::before {
@@ -353,6 +356,7 @@ input[type="number"]::-webkit-outer-spin-button {
     color: var(--color-text);
     position: relative;
     left: 50px;
+    max-width: 260px;
 }
 
 .content-first__column-second--text::before {
@@ -399,6 +403,7 @@ input[type="number"]::-webkit-outer-spin-button {
     position: relative;
     left: 50px;
     max-width: 490px;
+    max-width: 260px;
 }
 
 .content-second__column-first--text::before {
@@ -411,7 +416,6 @@ input[type="number"]::-webkit-outer-spin-button {
     right: 50px;
     top: 6px;
 }
-
 
 
 .content-third {
@@ -447,6 +451,7 @@ input[type="number"]::-webkit-outer-spin-button {
     line-height: 150%;
     position: relative;
     left: 50px;
+    max-width: 260px;
 }
 
 .content-third__column-first--text::before {
@@ -660,7 +665,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .content-seventh__column-second__form::before {
-    content: url(./img/sms.png);
+    content: url(sms.png);
     display: block;
     width: 24px;
     height: 24px;
@@ -685,7 +690,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .content-seventh__column-second__form::after {
-    content: url(./img/call.png);
+    content: url(call.png);
     display: block;
     width: 24px;
     height: 24px;
@@ -1077,11 +1082,11 @@ input[type="number"]::-webkit-outer-spin-button {
     }
 
     .container {
-        width: 360px;
+        max-width: 360px;
     }
 
     .container-mobile {
-        width: 340px;
+        max-width: 340px;
     }
 
     .content-fifth {
@@ -1108,11 +1113,6 @@ input[type="number"]::-webkit-outer-spin-button {
         width: 343px;
     }
 
-    .content-sixth__column-second--img {
-        width: 343px;
-        height: 390px;
-    }
-
     .content-sixth__column-first--zogolovok {
         font-size: 32px;
     }
@@ -1137,6 +1137,38 @@ input[type="number"]::-webkit-outer-spin-button {
         padding-block: 0px;
         padding-bottom: 20px;
         margin-top: 70px;
+    }
+
+    .container__mobile__content-first--img {
+        width: 320px;      
+    }
+
+    .container__mobile__content-second--img {
+        width: 320px;    
+    }
+
+    .container__mobile__content-third--img {
+        width: 320px;       
+    }
+
+    .container__mobile__content-fourth--img {
+        width: 320px;     
+    }
+
+    .content-second__column-second--image {
+        width: 320px;    
+    }
+
+    .content-third__column-second--image {
+        width: 320px;       
+    }
+
+    .content-fourth__column-second--image {
+        width: 320px;    
+    }
+
+    .content-sixth__column-second--img {
+        width: 320px;    
     }
 }
 
