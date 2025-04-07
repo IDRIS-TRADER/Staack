@@ -144,7 +144,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .header__burger-button--element3 {
     content: "";
     width: 25px;
-    height: 2.5px;
+    height: 1.5px;
     background-color: var(--color-white);
     display: block;
     position: relative;
@@ -660,7 +660,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .content-seventh__column-second__form::before {
-    content: url(sms.png);
+    content: url(./img/sms.png);
     display: block;
     width: 24px;
     height: 24px;
@@ -685,7 +685,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .content-seventh__column-second__form::after {
-    content: url(call.png);
+    content: url(./img/call.png);
     display: block;
     width: 24px;
     height: 24px;
