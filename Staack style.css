@@ -124,30 +124,23 @@ input[type="number"]::-webkit-outer-spin-button {
 .header__burger-button--element {
     width: 25px;
     height: 1.5px;
-    background-color: var(--color-white);
-    transition: 1s;
+    background-color: var(--color-white); 
 }
 
 .header__burger-button--element2 {
-    content: "";
     width: 25px;
     height: 1.5px;
     background-color: var(--color-white);
-    display: block;
     position: relative;
-    bottom: 7px;
-    transition: 0.5s;
+    bottom: 7px; 
 }
 
 .header__burger-button--element3 {
-    content: "";
     width: 25px;
-    height: 2.5px;
+    height: 1.5px;
     background-color: var(--color-white);
-    display: block;
     position: relative;
     bottom: 14px;
-    transition: 0.5s;
 }
 
 .header__menu--list--is-activ {
