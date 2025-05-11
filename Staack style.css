@@ -321,8 +321,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .content-first__column-second {
   line-height: 15px;
-  position: relative;
-  top: 130px;
 }
 
 .content-first__column-second--zogolovok-first {
@@ -375,8 +373,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .content-second__column-first {
   line-height: 15px;
-  position: relative;
-  top: 70px;
 }
 
 .content-second__column-first--zogolovok-first {
@@ -472,8 +468,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .content-fourth__column-first {
     width: 510px;
-    position: relative;
-    top: 130px;
 }
 
 .content-fourth__column-first--zogolovok {
