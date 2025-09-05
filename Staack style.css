@@ -537,7 +537,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .fon-content-seventh {
-    background-image: url('fon content7.png');
+    background-image: url('./img/fon content7.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 180px;
@@ -1192,6 +1192,7 @@ input[type="number"]::-webkit-outer-spin-button {
     }
 
 }
+
 
 
 
