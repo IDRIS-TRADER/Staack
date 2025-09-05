@@ -351,6 +351,7 @@ input[type="number"]::-webkit-outer-spin-button {
     position: relative;
     left: 50px;
     max-width: 260px;
+    line-height: 150%;
 }
 
 .content-first__column-second--text::before {
@@ -1196,5 +1197,6 @@ input[type="number"]::-webkit-outer-spin-button {
     }
 
 }
+
 
 
