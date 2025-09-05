@@ -317,12 +317,7 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 110px;
     position: relative;
     justify-content: space-around;
-}
-
-.content-first__column-second {
-  line-height: 15px;
-  position: relative;
-  top: 130px;
+    align-items: center;
 }
 
 .content-first__column-second--zogolovok-first {
@@ -362,7 +357,7 @@ input[type="number"]::-webkit-outer-spin-button {
     display: block;
     position: relative;
     right: 50px;
-    top: 6px;
+    top: 10px;
 }
 
 .content-second {
@@ -370,12 +365,11 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 250px;
     position: relative;
     justify-content: space-around;
+    align-items: center;
 }
 
 .content-second__column-first {
   line-height: 15px;
-  position: relative;
-  top: 70px;
 }
 
 .content-second__column-first--zogolovok-first {
@@ -418,6 +412,7 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 250px;
     position: relative;
     justify-content: space-around;
+    align-items: center;
 }
 
 .content-third__column-first {
@@ -465,12 +460,11 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 200px;
     position: relative;
     justify-content: space-around;
+    align-items: center;
 }
 
 .content-fourth__column-first {
     width: 510px;
-    position: relative;
-    top: 130px;
 }
 
 .content-fourth__column-first--zogolovok {
@@ -521,6 +515,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .content-sixth {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 200px;
 }
 
@@ -660,7 +655,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .content-seventh__column-second__form::before {
-    content: url(./img/sms.png);
+    content: url(sms.png);
     display: block;
     width: 24px;
     height: 24px;
@@ -685,7 +680,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .content-seventh__column-second__form::after {
-    content: url(./img/call.png);
+    content: url(call.png);
     display: block;
     width: 24px;
     height: 24px;
@@ -1197,6 +1192,7 @@ input[type="number"]::-webkit-outer-spin-button {
     }
 
 }
+
 
 
 
